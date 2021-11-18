@@ -20,6 +20,7 @@
             padding: 10px;
             height: 150px;
             display: flex;
+            flex: auto;
             justify-content: center;
             align-items: center;
         }
@@ -53,6 +54,38 @@
         
         span {
             color: rgb(216, 96, 16);
+        }
+        
+        @media (max-width: 1200px) {
+            .head {
+                font-size: 30px;
+            }
+            .content {
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 15px;
+                margin-bottom: 25px;
+            }
+            .sub_content {
+                font-size: 16px;
+            }
+        }
+        
+        @media (max-width: 500px) {
+            .head {
+                font-size: 30px;
+            }
+            .content {
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 15px;
+                margin-bottom: 25px;
+            }
+            .sub_content {
+                font-size: 15px;
+            }
         }
     </style>
 </head>
